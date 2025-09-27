@@ -1,0 +1,90 @@
+/* CSS cho nav và footer */
+nav, footer {
+    background-color: #d4f2f4;
+    color: #0b0848;
+    text-align: center;
+    padding: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #0b0848;
+    margin: 0 15px;
+    font-size: 20px;
+}
+
+nav a:hover {
+    color: #f1a3de;
+    font-weight: bold;
+    text-decoration: underline;
+    transition: 0.2s;
+}
+
+/* CSS cho div */
+#gioi-thieu {
+    background-color: #F3FDE8;
+    padding: 20px;
+}
+
+#giao-luu {
+    background-image: url("anh5.jpg");
+    background-repeat: repeat;
+    text-align: center;
+    color: beige;
+    padding: 30px;
+}
+
+/* CSS cho h1-h4 */
+h1, h2, h3, h4 {
+    font-size: 24px;
+    color: rgb(255, 197, 222);
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+}
+
+/* CSS cho bảng */
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Nút gửi thông tin */
+.btn-submit {
+    background-color: #b5d08d;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s ease;
+}
+
+.btn-submit:hover {
+    background-color: #ecffca;
+    color: #000000;
+    font-weight: bold;
+    box-shadow: 0 0 8px rgba(0,0,0,0.3);
+}
+
+/* Toàn bộ form */
+form {
+    font-size: 18px;
+}
+
+/* Input, textarea, select */
+form input, 
+form textarea, 
+form select {
+    font-size: 16px;
+    padding: 6px 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+/* Option trong select */
+form select option {
+    font-size: 16px;
+    padding: 5px;
+}
